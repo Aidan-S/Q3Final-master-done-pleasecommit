@@ -1,4 +1,5 @@
 package com.scannella.quarter3final;
+//Gabby's contribution to my Code
 
 import android.graphics.Color;
 import android.support.constraint.ConstraintLayout;
@@ -37,7 +38,7 @@ public class Settings extends AppCompatActivity {
                             @Override
                             public void run() {
                                 //set background colors
-                                ConstraintLayout c = (ConstraintLayout) findViewById(R.id.settingsLayout);
+                                ConstraintLayout c = (ConstraintLayout) findViewById(R.id.activity_main);
                                 c.setBackgroundColor(randColor());
                             }
                         });
